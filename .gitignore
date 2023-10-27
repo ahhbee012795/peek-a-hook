@@ -1,0 +1,9 @@
+.git
+node_modules
+# exclude everything
+output/*
+uploads/*
+
+# exception to the rule to keep the empty folder
+!output/.gitkeep
+!uploads/.gitkeep
